@@ -1,0 +1,28 @@
+.details {
+  width: 100%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+
+  @media (min-width: 640px) {
+    margin-left: 20px;
+  }
+
+  h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+  }
+
+  p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #666;
+
+    strong {
+      color: #333;
+    }
+  }
+}
